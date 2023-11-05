@@ -53,7 +53,7 @@ const Page = () => {
     <ApolloProvider client={apolloClient}>
       <Typography variant="h4">10 Drug targets having highest association scores with Lung Carcinoma</Typography>
       <Box sx={{ width: '100%' }}>
-        <Table aria-label="simple table">
+        <Table>
           <TableHead>
             <TableRow>
               <TableCell padding="checkbox" />
